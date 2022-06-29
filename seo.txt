@@ -1,0 +1,30 @@
+El logo de la página colcado en el header y en el footer redirigen al index.html. (Esto sucede en todas las páginas)
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: “Empresa consultora  de Ingeniería y Arquitectura de obras de construcción abocada a la construcción Steel framing o construcción en seco. "
+Palabras clave: "Steel Framing, construcción en seco, consultora, equipo profesional, asesoramiento, trabajos precisos".
+Encabezado: Ocassio | Inicio
+Agregue descripción en el atributo alt.
+En la sección Somos Ocassio: alt="foto de un grupo de personas trabajando".
+Sección Ofrecemos: alt="co-working"
+alt="imágen de personas trabajando"
+alt="videollamadas"
+
+En el archivo quienes-somos.html:
+Descripción: “Ocassio brinda soluciones residenciales, comerciales e institucionales en base al desarrollo de estructuras de acero galvanizado para proyectos y módulos habitables."
+Palabras clave: "fabricación de estructuras, acero galvanizado, compromiso, innovación, tecnología".
+Encabezado: Ocassio | Sobre Nosotros
+
+En el archivo servicios.html:
+Descripción: “En Ocassio realizamos diseño y cálculo estructural, modelado y panelizado de proyectos de steel framing, verificación de elementos e instalaciones sanitarias, de gas y eléctricas.”
+Palabras clave: “diseño, cálculo estructural, modelado, panelizado, steel framing, instalaciones sanitarias, instalaciones de gas, instalaciones eléctricas, verificación de elementos".
+Encabezado: Ocassio | Nuestros servicios
+
+ En el archivo proyectos.html:
+Descripción:”Nuestros últimos proyectos realizados”
+Palabras clave: “estructuras, proyectos, steel framing, modelado".
+Encabezado: Ocassio | Nuestros Proyectos
+
+En el archivo contacto.html:
+Descripción:”¡Contáctanos! Nuestro formulario de contacto es una simulación, como tal no habrá una respuesta por parte de alguien.”
+Palabras clave: “contactanos, alta gracia, córdoba".
+Encabezado: Ocassio | Contacto

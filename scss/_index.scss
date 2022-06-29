@@ -1,0 +1,44 @@
+@import 'base/variables';
+
+body{
+    background: #bccfd5;
+    background: $degradado;
+}
+// Sección somos ocassio
+.somosOcassio{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    .row{
+        .team{
+            img{
+                opacity: 0.9;
+                width: 90%;
+                border-radius: 0.2em;
+            }
+        }
+    }
+}
+// Sección Ofrecemos
+.ofrecemos{
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        .item{
+            box-shadow: 5px 5px 5px #777;
+            height: 310px;
+            width: 335px;
+            padding: 50px 35px 10px;
+            background:  #f7fafa;
+            border-radius: 20px;
+            margin: 15px;
+            position: relative;
+            left: 50px;
+            right: 50px;
+            text-align: center;
+        }
+    }
+}

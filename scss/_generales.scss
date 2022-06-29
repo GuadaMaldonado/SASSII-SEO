@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import 'base/variables';
+@import 'base/extend';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, .btn{
+    font-family: $letraTitulos;
+}
+p, button, h3{
+    font-family: $letraParrafos;
+    font-size: 1em;
+}
+
+.btn{
+    border-radius: 30px;
+}
+.btn-light{
+    @extend %estiloBoton;
+    @include fontBoton($letraTitulos,$degradado);
+    &:hover{
+        color:  white ;
+        background-color: #1d5152 ;
+        border-color: #1d5152;
+        box-shadow: 5px 5px 5px #777;
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,14 @@
+%estiloBoton{
+    color: black;
+    background-color:  #f7fafa;
+    border-color:  #f7fafa;
+    transition-duration: 0.5s;
+    transition: 1s ease-in-out;
+}
+// APLICADO EN EL APARTADO _generales.SCSS
+
+// MIXIN
+@mixin fontBoton ($letraTitulos,$degradado) {
+    font-family: $letraTitulos;
+    background-color: $degradado;
+}

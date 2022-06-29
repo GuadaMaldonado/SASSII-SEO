@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+.btn-light {
+  color: black;
+  background-color: #f7fafa;
+  border-color: #f7fafa;
+  transition-duration: 0.5s;
+  transition: 1s ease-in-out; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+h1, h2, .btn {
+  font-family: "Cinzel", serif; }
+
+p, button, h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1em; }
+
+.btn {
+  border-radius: 30px; }
+
+.btn-light {
+  font-family: "Cinzel", serif;
+  background-color: linear-gradient(to top, #f7fafa, #bccfd5); }
+  .btn-light:hover {
+    color: white;
+    background-color: #1d5152;
+    border-color: #1d5152;
+    box-shadow: 5px 5px 5px #777;
+    transform: scale(1.1); }
+
+.btn-light {
+  color: black;
+  background-color: #f7fafa;
+  border-color: #f7fafa;
+  transition-duration: 0.5s;
+  transition: 1s ease-in-out; }
+
+header .navbar .container a {
+  font-size: 0.9em;
+  color: black; }
+
+header .container .row .col-md-5 {
+  padding: 4.2vmin 1vmin; }
+  header .container .row .col-md-5 img {
+    width: 100%; }
+
+header .container .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin; }
+  header .container .row .col-md-7 h1 {
+    font-size: 9vmin;
+    font-weight: bold;
+    padding: 0.1em 0em; }
+  header .container .row .col-md-7 p {
+    padding: 1vmin 5vmin; }
+
+body {
+  background: #bccfd5;
+  background: linear-gradient(to top, #f7fafa, #bccfd5); }
+
+.somosOcassio {
+  padding-top: 10px;
+  padding-bottom: 100px; }
+  .somosOcassio .row .team img {
+    opacity: 0.9;
+    width: 90%;
+    border-radius: 0.2em; }
+
+.ofrecemos .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+  padding-bottom: 20px; }
+  .ofrecemos .box .item {
+    box-shadow: 5px 5px 5px #777;
+    height: 310px;
+    width: 335px;
+    padding: 50px 35px 10px;
+    background: #f7fafa;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    left: 50px;
+    right: 50px;
+    text-align: center; }
+
+.foto-estructuras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/estructuras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .foto-estructuras h1 {
+    color: white;
+    font-size: 40px; }
+
+.proyectos {
+  padding-left: 55px;
+  padding-bottom: 50px; }
+  .proyectos .titulo-proyectos {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px; }
+  .proyectos .box-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 30px;
+    justify-items: center; }
+    .proyectos .box-proyectos img {
+      width: 400px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 10px; }
+
+footer {
+  background-color: black; }
+  footer li {
+    list-style: none; }

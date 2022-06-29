@@ -1,0 +1,32 @@
+header{
+    .navbar{
+        .container{
+            a{
+                font-size: 0.9em;
+                color: black;
+            }
+        }
+    }
+    .container{
+        .row{
+            .col-md-5{
+                padding: 4.2vmin 1vmin;
+                img{
+                    width: 100%;
+                }
+            }
+            .col-md-7{
+                padding: 22vmin 1vmin;
+                padding-bottom: 35vmin;
+                h1{
+                    font-size: 9vmin;
+                    font-weight: bold;
+                    padding: 0.1em 0em;
+                }
+                p{
+                    padding: 1vmin 5vmin;
+                }
+            }
+        }
+    }
+}
